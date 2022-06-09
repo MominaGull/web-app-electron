@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>RSM</title>
+
+    <!-- mobile specific metas
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+   ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <style>
+        body {
+          overflow-y: hidden;
+        }
+    </style>
+
+</head>
+
+<body id="top">
+
+    <!-- header 
+   ================================================== -->
+   <header id="header" class="row">   
+
+   		<div class="header-logo">
+	        <a href="main.html">RSM</a>
+	    </div>
+
+	   	<nav id="header-nav-wrap">
+			<ul class="header-main-nav">
+                <li><a href="guide.html">User Guide</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+   	
+   </header>
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000>
+
+        <div class="overlay"></div>
+        <div class="home-content">        
+
+            <div class="row contents">                     
+                <div class="home-content-left">
+
+                    <h1 data-aos="fade-up">
+                        Blood-Air Partition Coefficient
+                    
+                    </h1>
+
+                    <div class="dropdown-menu">
+                    <button class="menu-btn" style="color:black">Get Started <i class='fa fa-arrow-right'></i></button>
+                    <div class="menu-content">
+                    <a class="links" href="start.html">Single Chemical</a>
+                    <a class="links" href="batch.html">Batch Chemicals</a>
+                   
+                    </div>
+                    </div>
+
+                    <h1 data-aos="fade-up">
+                        Concentration of Chemical in Blood
+                    
+                    </h1>
+
+                    <div class="dropdown" >
+                        <button class="dropbtn" style="color:black">Get Started <i class='fa fa-arrow-right'></i></button>
+                        <div class="dropdown-content">
+                            <a class="links" href="chemical_start.html">Single Chemical</a>
+                            <a class="links" href="chemical_batch.html">Batch Chemicals</a>                        </div>
+                      </div>
+                   
+                    </div>
+                    </div>
+
+                </div>
+
+        </div> <!-- end home-content -->
+
+
+    <div id="preloader"> 
+    	<div id="loader"></div>
+    </div>  
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+<script>
+    
+let dropdownBtn = document.querySelector('.menu-btn');
+let menuContent = document.querySelector('.menu-content');
+dropdownBtn.addEventListener('click',()=>{
+    if(menuContent.style.display===""){
+            menuContent.style.display="block";
+    } else {
+            menuContent.style.display="";
+        }
+    })        
+    </script>
+
+</body>
+
+</html>

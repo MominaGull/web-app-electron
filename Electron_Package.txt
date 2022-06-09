@@ -1,0 +1,1 @@
+https://github.com/electron/electron/blob/main/docs/tutorial/quick-start.md#package-and-distribute-the-application
